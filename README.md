@@ -85,7 +85,6 @@ Type `done` when you're finished with that document.
 
 ```
 python wiki_agent.py                     # interactive session
-python wiki_agent.py --mode daily        # scan for new files (no Ollama needed)
 python wiki_agent.py --mode lint         # weekly lint pass
 python wiki_agent.py --mode ingest FILE  # jump straight to ingesting a file
 python wiki_agent.py --model qwen2.5:7b  # use a different model
